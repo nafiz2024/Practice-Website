@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Form</title>
+    <style>
+      form .basic_info label {
+        display: block;
+      };
+    </style>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Mojar Pitha Ghor</h1>
+        <form action="">
+          <fieldset class="basic_info">
+            <legend>Basic Info</legend>
+
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              name=""
+              id="name"
+              placeholder="Write Your Name"
+            />
+
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="Write Your Email"
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Pitha Info</legend>
+
+            <input type="checkbox" name="pitha" id="chitoy" />
+            <label for="chitoy">Chitoy</label>
+
+            <input type="checkbox" name="pitha" id="vhapa" />
+            <label for="vhapa">Vhapa</label>
+
+            <input type="checkbox" name="pitha" id="puri" />
+            <label for="puri">Dal Puri</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Vorta Selection</legend>
+
+            <input type="checkbox" name="vorta" id="sorisa" />
+            <label for="sorisa">Sorisa</label>
+
+            <input type="checkbox" name="vorta" id="sutki" />
+            <label for="sutki">Sutki</label>
+
+            <input type="checkbox" name="vorta" id="morich" />
+            <label for="morich">Morich</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Extra Info</legend>
+            <textarea
+              cols="50"
+              rows="5"
+              name=""
+              id=""
+              placeholder="Write Here"
+            ></textarea>
+          </fieldset>
+
+          <input type="submit" value="Submit" />
+          <input type="reset" value="Clear" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
