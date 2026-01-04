@@ -1,13 +1,19 @@
-nav li{
-    list-style: none;
-    display: inline-block;
+nav li a {
+  text-decoration: none;
+  font-size: larger;
+  font-weight: bolder;
 }
 
-nav li a{
-    text-decoration: none;
-    color: #333;
-    padding: 10px 15px;
-    display: block;
-    font-size: larger;
-    font-weight: bold;
+nav li a:hover {
+  color: rgb(255, 0, 0);
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li:hover {
+  background-color: #20fd03;
 }
