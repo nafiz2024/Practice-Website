@@ -1,18 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice Table</title>
-</head>
-<body>
+
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+
+      td,
+      th {
+        border: 2px solid rgb(0, 0, 0);
+        padding: 10px 20px;
+      }
+    </style>
+  </head>
+  <body>
     <main>
-        <h2>Friends</h2>
-        <table>
-            <thead>
-                <th>No</th>
-            </thead>
-        </table>
+      <h2>Friends</h2>
+      <table>
+        <caption>
+          My Friends Collections
+        </caption>
+
+        <thead>
+          <th>No</th>
+          <th>Frist Name</th>
+          <th>Last Name</th>
+          <th>Age</th>
+        </thead>
+
+        <tbody>
+          <td>1</td>
+          <td>Sirajam</td>
+          <td>Sammo</td>
+          <td>23</td>
+        </tbody>
+
+        <tbody>
+          <td>2</td>
+          <td>Sakil</td>
+          <td>Hossain</td>
+          <td>24</td>
+        </tbody>
+
+        <tbody>
+          <td>3</td>
+          <td>Alim</td>
+          <td>Kaka</td>
+          <td>25</td>
+        </tbody>
+
+        <tfoot>
+          <td colspan="4">Total Friends : 3</td>
+        </tfoot>
+      </table>
     </main>
-</body>
+  </body>
 </html>
